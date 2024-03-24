@@ -1347,7 +1347,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { 
+    width: 120px; 
+    border-radius: 30px; 
+    border: 1px solid aliceblue;
+  }
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1843,7 +1847,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { 
+    width: 150px;
+    border-radius: 30px; 
+    border: 1px solid aliceblue;
+  }
 
   .info-content .name {
     white-space: nowrap;
